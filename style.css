@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif
+}
+
+.header__navbar {
+    position: fixed;
+    background-color: black;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    z-index: 2;
+}
+
+.search{
+    position: relative;
+    left: -2.2em;
+    top: 0.5em;
+}
+
+.input{
+    display: inline-block;
+    margin-left: -38em;
+    border-radius: 3em;
+    width: 20em;
+    height: 3em;
+    color : #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    background-repeat: no-repeat;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.list__link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.list__link--active {
+    background-color: red;
+    display: inline-block;
+    height: 2.9em;
+    padding: 1em;
+    margin-right: 2em;
+}
+
+
+.list__link:hover {
+    color: #9c9898;
+    transition: 0.5;
+}
+
+
+.list__menu {
+    padding: 1rem;
+    height: 5rem;
+    margin-right: 3em;
+}
+
+.img__logo {
+    display: inline-block;
+    width: 15em;
+    margin-right: 32em;
+    padding: 2em;
+}
+
+.main {
+    display: flex;
+    background-color: #000;
+    width: 100vw;
+    height: 90vh;
+    align-items: end;
+    justify-content: center;
+}
+
+.icon {
+    width: 4em;
+    height: 4em;
+    margin: 0.5em 3.5em;
+}
+
+.icon--apple {
+    width: 6em;
+    margin-left: 3em;
+
+}
+
+.icon--google {
+    width: 6em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+
+.container__main {
+    display: inline-grid;
+    justify-content: center;
+    align-content: center
+}
+
+.text-icon {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2em;
+}
+
+.text-icon:hover {
+    color: #9c9898;
+    transition: 0.5;
+}
+
+.container__about-us {
+    width: 100vw;
+}
+
+
+body {
+    height: 500em;
+}
+
+.container__about-us {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: url("assets/img/solar.jpg");
+    align-items: center;
+    justify-content: start;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.square__about-us {
+    margin-top: 3em;
+    position: absolute;
+    background-color: rgb(36, 30, 30);
+    width: 34.2em;
+    height: 38em;
+    margin-left: 7em;
+    padding: 2em;
+    
+}
+
+.square__form__about-us {
+    background-color: red;
+    margin-top: 2em;
+    width: 30.5em;
+    height: 30em;
+}
+
+.square__title__about-us {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.square_p__about-us {
+    font-size: 1.1em;
+    padding: 2em;
+    color: #fff;
+}
+
+
+.message-box {
+    background-color: red;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 20em;
+    height: 6.5em;
+    margin-top: 36.5em;
+    margin-left: 76.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.message-box__p {
+    color: white;;
+    display: block;
+}
+
+.video {
+    width: 6em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+
+span {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+.img__logo--2 {
+    width: 15em;
+    margin-left: 7em;
+    margin-bottom: 1em;
+}
+
+
+.container--info {
+    width: 100vw;
+    height: 20em;
+    background-color: rgb(36, 30, 30);
+}
+
+
+.container__img_info{
+    width: 20em;
+    margin: 5em;
+    display: inline-grid;
+    align-items: center;
+    position: relative;
+    left: 2em;
+
+}
+
+.img-info {
+    width: 8em;
+    position: relative;
+    left: 5em;
+}
+
+.line--info{
+    border: 1px solid red;
+    width: 5em;
+    margin-left: 6.5em;
+}
+
+.text-info {
+    color: white;
+    font-size: 1.2em;
+    display: inline;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+
+.container__mision {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: url("assets/img/edificio.jpg");
+    align-items: center;
+    justify-content: start;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.square__mision {
+    margin-top: 3em;
+    background-color: rgb(36, 30, 30);
+    width: 34.2em;
+    height: 38em;
+    margin-left: 53em;
+    padding: 2em;
+}
+
+.square__form__mision {
+    background-color: red;
+    margin-top: 2em;
+    width: 30.5em;
+    height: 30em;
+}
+
+.square__title__mision {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.square_p__mision {
+    font-size: 1.1em;
+    padding: 2em;
+    color: #fff;
+}
+
+
+
+.container__values{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: url("assets/img/edificio2.jpg");
+    align-items: center;
+    justify-content: start;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.square__values{
+    margin-top: 3em;
+    background-color: rgb(36, 30, 30);
+    width: 34.2em;
+    height: 38em;
+    margin-left: 3em;
+    padding: 2em;
+}
+
+.square__form__values{
+    background-color: red;
+    margin-top: 2em;
+    width: 30.5em;
+    height: 30em;
+}
+
+.square__title__values{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.square_p__values{
+    font-size: 1.1em;
+    padding: 2em;
+    color: #fff;
+}
+
+
+.map__container{
+    width: 100vw;
+    height: 10em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.map__title{
+    margin-top: 2em;
+    color: red;
+    font-size: 2em;
+    margin-left: 4em;
+}
+
+.map__p{
+    margin-left: 8em;
+}
+
+.map__scale{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50em;
+    background-size: cover;
+    background-position: center;
+    background-image: url(assets/img/mapa.png);    
+}
