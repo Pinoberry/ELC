@@ -1,33 +1,34 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: "Lato", sans-serif
+    font-family: "Lato", Arial, sans-serif
 }
 
 .header__navbar {
     position: fixed;
-    background-color: black;
+    background-image: linear-gradient(#000,#201919);
+    box-shadow: 1px 5px 10px #ffffff5a;
     height: 5em;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 100vw;
+    width: 100%;
     z-index: 2;
 }
 
-.search{
+.search {
     position: relative;
     left: -2.2em;
     top: 0.5em;
 }
 
-.input{
+.input {
     display: inline-block;
     margin-left: -38em;
     border-radius: 3em;
     width: 20em;
     height: 3em;
-    color : #fff;
+    color: #fff;
     background-color: #000;
     border: 1px solid #fff;
     background-repeat: no-repeat;
@@ -39,15 +40,17 @@
     background-color: black;
     color: white;
     text-decoration: none;
-    margin: 0 1em;
+    margin: 0 1.2em;
 }
 
 .list__link--active {
     background-color: red;
     display: inline-block;
-    height: 2.9em;
-    padding: 1em;
-    margin-right: 2em;
+    width: 8em;
+    height: 2.5em;
+    text-align: center;
+    padding: 0.6em;
+    margin-right: .5em;
 }
 
 
@@ -73,22 +76,21 @@
 .main {
     display: flex;
     background-color: #000;
-    width: 100vw;
-    height: 90vh;
+    width: 100%;
+    height: 100vh;
     align-items: end;
     justify-content: center;
 }
 
 .icon {
-    width: 4em;
+    width: 4.5em;
     height: 4em;
-    margin: 0.5em 3.5em;
+    margin:0em 3.5em;
 }
 
 .icon--apple {
     width: 6em;
     margin-left: 3em;
-
 }
 
 .icon--google {
@@ -117,16 +119,11 @@
 }
 
 .container__about-us {
-    width: 100vw;
-}
-
-
-body {
-    height: 500em;
+    width: 100%;
 }
 
 .container__about-us {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     background: url("assets/img/solar.jpg");
@@ -139,13 +136,12 @@ body {
 
 .square__about-us {
     margin-top: 3em;
-    position: absolute;
     background-color: rgb(36, 30, 30);
     width: 34.2em;
     height: 38em;
     margin-left: 7em;
     padding: 2em;
-    
+
 }
 
 .square__form__about-us {
@@ -171,7 +167,7 @@ body {
 
 .message-box {
     background-color: red;
-    position: sticky;
+    position: fixed;
     position: -webkit-sticky;
     top: 0;
     width: 20em;
@@ -181,16 +177,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
 
 .message-box__p {
-    color: white;;
+    color: white;
+    ;
     display: block;
 }
 
 .video {
-    width: 6em;
+    width: 4em;
     margin-right: 1em;
     margin-left: 1em;
 }
@@ -204,19 +202,18 @@ span {
 
 .img__logo--2 {
     width: 15em;
-    margin-left: 7em;
-    margin-bottom: 1em;
+    margin: -1.6em 7em;
 }
 
 
 .container--info {
-    width: 100vw;
+    width: 100%;
     height: 20em;
     background-color: rgb(36, 30, 30);
 }
 
 
-.container__img_info{
+.container__img_info {
     width: 20em;
     margin: 5em;
     display: inline-grid;
@@ -232,7 +229,7 @@ span {
     left: 5em;
 }
 
-.line--info{
+.line--info {
     border: 1px solid red;
     width: 5em;
     margin-left: 6.5em;
@@ -249,7 +246,7 @@ span {
 
 
 .container__mision {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     background: url("assets/img/edificio.jpg");
@@ -289,9 +286,8 @@ span {
 }
 
 
-
-.container__values{
-    width: 100vw;
+.container__values {
+    width: 100%;
     height: 100vh;
     display: flex;
     background: url("assets/img/edificio2.jpg");
@@ -302,7 +298,7 @@ span {
 
 }
 
-.square__values{
+.square__values {
     margin-top: 3em;
     background-color: rgb(36, 30, 30);
     width: 34.2em;
@@ -311,50 +307,306 @@ span {
     padding: 2em;
 }
 
-.square__form__values{
+.square__form__values {
     background-color: red;
     margin-top: 2em;
     width: 30.5em;
     height: 30em;
 }
 
-.square__title__values{
+.square__title__values {
     color: white;
     font-weight: bold;
     font-size: 1.5em;
 }
 
-.square_p__values{
+.square_p__values {
     font-size: 1.1em;
     padding: 2em;
     color: #fff;
 }
 
 
-.map__container{
-    width: 100vw;
+.map__container {
+    width: 100%;
     height: 10em;
     background-color: white;
     display: flex;
     flex-direction: column;
 }
 
-.map__title{
+.map__title {
     margin-top: 2em;
     color: red;
     font-size: 2em;
     margin-left: 4em;
 }
 
-.map__p{
+.map__p {
     margin-left: 8em;
 }
 
-.map__scale{
+.map__scale {
     background-color: whitesmoke;
     width: 100%;
     height: 50em;
     background-size: cover;
     background-position: center;
-    background-image: url(assets/img/mapa.png);    
+    background-image: url(assets/img/mapa.png);
 }
+
+
+.cards {
+    background-color: rgb(36, 30, 30);
+    width: 100%;
+    height: 40em;
+    padding: .1px;
+}
+
+
+.cards__title {
+    margin-top: 3em;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.cards__title__cursive {
+    color: #fff;
+    margin-top: 0.5em;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.cards__container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #fff;
+    width: 17em;
+    height: 20em;
+    margin: 4em 0.5em;
+    border-radius: em;
+}
+
+
+.card__title {
+    color: rgb(226, 5, 5);
+    padding: 1em;
+    float: right;
+    display: inline;
+}
+
+
+.card__img {
+    width: 5em;
+    height: 5em;
+    padding: 0.4em;
+    margin-left: 0.9em;
+    object-fit: cover;
+
+}
+
+.card__p {
+    position: relative;
+    display: inline;
+    left: 7em;
+    bottom: 2.5em;
+    padding: 0.1px;
+    color: #9c9898;
+}
+
+.card__info {
+    padding: 1em;
+    margin-bottom: 20em;
+    padding: 1em;
+    float: left;
+    margin: -2em 0.1em;
+}
+
+
+.star__container {
+    margin-top: 9em;
+    margin-left: 1em;
+}
+
+.brands__container {
+    width: 100%;
+    height: 20em;
+    padding: 0.1px;
+}
+
+
+.brands__title {
+    color: red;
+    font-size: 1.5em;
+    margin-left: 4em;
+    margin-top: 1.5em;
+}
+
+.img__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    column-gap: 7em;
+    row-gap: 1em;
+    height: 13em;
+
+}
+
+.brand__image {
+    width: 10em;
+    height: 5em;
+    object-fit: contain;
+}
+
+
+.contact--form__container {
+    width: 100%;
+    height: 35em;
+}
+
+
+.contact--form__container {
+    display: flex;
+    background-image: url(/assets/img/electronica.jpg);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1em;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-from__h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+
+.contact-from__p {
+    text-align: center;
+    color: #fff;
+}
+
+
+.submit {
+    font-size: 1em;
+    width: 6em;
+    height: 2em;
+    border-radius: 20em;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+.input__form {
+    width: 23em;
+    height: 3em;
+    border-radius: 1em;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding-left: 3em;
+}
+
+
+.input__form::placeholder {
+    color: #fff;
+}
+
+.icon__form {
+    position: relative;
+    right: 18.5em;
+    top: 0.3em;
+}
+
+
+.footer__container {
+    width: 100%;
+    height: 25em;
+    background-color: #535050;
+    display: flex;
+    justify-content: center
+}
+
+
+.img__logo--3 {
+    margin-top: 5em;
+    width: 19em;
+    height: 12em;
+    padding: 1em;
+    border-right: 2px solid white;
+    margin-right: 6em;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 15em;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 1em;
+
+}
+
+.footer__h3 {
+    margin-left: 2.5em;
+    margin-top: 7em;
+    color: rgb(142, 212, 38);
+    width: 100%;
+    height: 100%;
+}
+
+.footer__p{
+    position: relative;
+    bottom: 1em;
+    color: #fff;
+    margin-bottom: 10em;
+    margin-top: 0.2em;
+    margin-left: 3.6em;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+
+.footer__p--active{
+    position: relative;
+    bottom: 3em;
+    right: -0.2em;
+}
+
+.footer__p--contact{
+    position: relative;
+    top: -0.2em;
+    right: -0.em;
+    line-height: 1em;
+    font-size: 0.8em;
+}
+
+
+.green{
+    color: rgb(142, 212, 38);
+    font-size: 0.8em;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #9c9898;
+    transition: 0.5s;
+}
+
+
