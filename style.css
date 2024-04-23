@@ -1,19 +1,20 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Lato", Arial, sans-serif
 }
 
 .header__navbar {
     position: fixed;
-    background-image: linear-gradient(#000,#201919);
+    background-image: linear-gradient(#000, #201919);
     box-shadow: 1px 5px 10px #ffffff5a;
     height: 5em;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    z-index: 2;
+    z-index: 5;
 }
 
 .search {
@@ -34,6 +35,12 @@
     background-repeat: no-repeat;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+
+input:hover {
+    border-color: #9c9898;
+    transition: 0.5s;
 }
 
 .list__link {
@@ -60,6 +67,7 @@
 }
 
 
+
 .list__menu {
     padding: 1rem;
     height: 5rem;
@@ -74,18 +82,20 @@
 }
 
 .main {
-    display: flex;
+    position: relative;
     background-color: #000;
+    display: flex;
     width: 100%;
     height: 100vh;
     align-items: end;
     justify-content: center;
+    z-index: 1;
 }
 
 .icon {
     width: 4.5em;
     height: 4em;
-    margin:0em 3.5em;
+    margin: 0em 3.5em;
 }
 
 .icon--apple {
@@ -100,6 +110,7 @@
 }
 
 .container__main {
+    position: relative;
     display: inline-grid;
     justify-content: center;
     align-content: center
@@ -168,7 +179,6 @@
 .message-box {
     background-color: red;
     position: fixed;
-    position: -webkit-sticky;
     top: 0;
     width: 20em;
     height: 6.5em;
@@ -177,7 +187,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 5;
+    border: 7px solid #000;
+    box-shadow: 10px 10px 20px rgba(255, 0, 0, 0.433);
 }
 
 
@@ -199,6 +211,47 @@ span {
     font-size: 1.1em;
 }
 
+.padding {
+    background-color: #201919;
+    height: 30em;
+    width: 100%;
+}
+
+.padding__container{
+    width: 100%;
+    height: 100%;
+}
+
+.dir{
+    margin-top: 2em;
+    float: left;
+    width: 50%;
+    height: 25em;
+    display: block;
+    padding: 2em;
+}
+
+
+.logo2{
+    margin-top: 0.5em;
+    margin-left: 10em;
+    width: 18em;
+    height: 14em;
+}
+
+.padding__text{
+    padding-top: 2em;
+    font-size: 2em;
+    color: #fff
+
+}
+
+.padding__p{
+    color: #fff;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 1em;
+}
 
 .img__logo--2 {
     width: 15em;
@@ -388,6 +441,7 @@ span {
 }
 
 .card {
+    box-shadow: 10px 5px 10px #ffffff4b;
     background-color: #fff;
     width: 17em;
     height: 20em;
@@ -567,7 +621,7 @@ span {
     height: 100%;
 }
 
-.footer__p{
+.footer__p {
     position: relative;
     bottom: 1em;
     color: #fff;
@@ -579,13 +633,13 @@ span {
 }
 
 
-.footer__p--active{
+.footer__p--active {
     position: relative;
     bottom: 3em;
     right: -0.2em;
 }
 
-.footer__p--contact{
+.footer__p--contact {
     position: relative;
     top: -0.2em;
     right: -0.em;
@@ -594,19 +648,35 @@ span {
 }
 
 
-.green{
+.green {
     color: rgb(142, 212, 38);
     font-size: 0.8em;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
 }
 
-a:hover{
+a:hover {
     color: #9c9898;
     transition: 0.5s;
 }
 
 
+.video__container {
+    position: absolute;
+    bottom: 8.5em;
+    width: 100%;
+    height: 100%;
+    bottom: 10em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.266), #ff000076);
+}
+
+.landing__video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
