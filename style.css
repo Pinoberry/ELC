@@ -7,8 +7,7 @@
 
 .header__navbar {
     position: fixed;
-    background-image: linear-gradient(#000, #201919);
-    box-shadow: 1px 5px 10px #ffffff5a;
+    background-image: linear-gradient(#000, transparent);
     height: 5em;
     display: flex;
     align-items: center;
@@ -30,7 +29,7 @@
     width: 20em;
     height: 3em;
     color: #fff;
-    background-color: #000;
+    background-color: transparent;
     border: 1px solid #fff;
     background-repeat: no-repeat;
     padding-left: 1em;
@@ -44,7 +43,7 @@ input:hover {
 }
 
 .list__link {
-    background-color: black;
+    background-color: transparent;
     color: white;
     text-decoration: none;
     margin: 0 1.2em;
@@ -528,7 +527,7 @@ span {
 
 .contact--form__container {
     display: flex;
-    background-image: url(./assets/img/electronica.jpg);
+    background-image: url(assets/img/electronica.jpg);
     justify-content: center;
     align-items: center;
     flex-direction: column;
