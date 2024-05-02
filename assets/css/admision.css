@@ -5,28 +5,25 @@
     font-family: "Lato", Arial, sans-serif
 }
 
-.header {
-    display: flex;
-}
-
 .header__navbar {
     display: flex;
     position: fixed;
     height: 5em;
     background-image: linear-gradient(#000, transparent);
+    width: 100%;
     align-items: center;
     justify-content: flex-end;
-    width: 100%;
     z-index: 2;
 }
 
 .search {
     position: relative;
-    left: -2.2em;
+    right: 2.2em;
     top: 0.5em;
 }
 
 .input {
+    position: relative;
     margin-left: -38em;
     border-radius: 3em;
     width: 20em;
@@ -34,10 +31,9 @@
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
-    background-repeat: no-repeat;
     padding-left: 1em;
-    padding-right: 1em;
 }
+
 
 input:hover {
     border-color: #9c9898;
@@ -47,7 +43,7 @@ input:hover {
     background-color: transparent;
     color: white;
     text-decoration: none;
-    margin: 1em;
+    margin: 0 1.2em;
 }
 
 .list__link--active {
@@ -71,7 +67,7 @@ input:hover {
 }
 
 .img__logo {
-    display: inline-block;
+    position: relative;
     width: 15em;
     margin-right: 32em;
     padding: 2em;
@@ -91,7 +87,7 @@ input:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    max-width: 100%;
+    min-width: 100%;
 }
 
 .slider__wrapper {
@@ -203,7 +199,7 @@ input:hover {
 .curses__container {
     position: relative;
     width: 100%;
-    height: 105vh;
+    height: 110vh;
 }
 
 .curses__container__h2 {
@@ -238,7 +234,7 @@ input:hover {
     align-items: center;
 }
 
-.img {
+.curses__card__img {
     width: 19em;
     height: 18em;
 }
@@ -282,9 +278,6 @@ input:hover {
     margin-right: 6em;
 }
 
-
-
-
 .container--info {
     width: 100%;
     height: 20em;
@@ -297,9 +290,7 @@ input:hover {
     margin: 5em;
     display: inline-grid;
     align-items: center;
-    position: relative;
-    left: 2em;
-
+    text-align: center;
 }
 
 .img-info {
@@ -329,11 +320,8 @@ input:hover {
     height: 100vh;
     display: flex;
     background: url("../img/solar.jpg");
-    align-items: center;
-    justify-content: start;
     background-size: cover;
     background-position: center;
-
 }
 
 .square__about-us {
@@ -343,7 +331,6 @@ input:hover {
     height: 38em;
     margin-left: 7em;
     padding: 2em;
-
 }
 
 .square__form__about-us {
@@ -366,27 +353,24 @@ input:hover {
     color: #fff;
 }
 
+
 .message-box {
-    background-color: rgba(255, 0, 0, 0.825);
+    background-color: rgba(255, 0, 0);
     position: fixed;
-    top: 0;
-    width: 20em;
+    top: 35em;
+    right:  0;
+    width: 17em;
     height: 6.5em;
-    margin-top: 36.5em;
-    margin-left: 76.2em;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 5;
     border: 7px solid #000;
-    box-shadow: 10px 10px 20px rgba(255, 0, 0, 0.433);
+    margin-left: 100em;
 }
-
 
 .message-box__p {
     color: white;
-    ;
-    display: block;
 }
 
 .video {
@@ -395,46 +379,48 @@ input:hover {
     margin-left: 1em;
 }
 
-
 span {
     font-weight: bold;
     font-size: 1.1em;
 }
 
 
-.message-box {
-    background-color: rgba(255, 0, 0, 0.825);
-    position: fixed;
-    top: 0;
-    width: 20em;
-    height: 6.5em;
-    margin-top: 36.5em;
-    margin-left: 76.2em;
+.container__mision {
+    width: 100%;
+    height: 100vh;
     display: flex;
+    background: url("../img//edificio.jpg");
     align-items: center;
-    justify-content: center;
-    z-index: 5;
-    border: 7px solid #000;
-    box-shadow: 10px 10px 20px rgba(255, 0, 0, 0.433);
+    background-size: cover;
+    background-position: center;
+    justify-content: end;
 }
 
+.square__mision {
+    background-color: rgb(36, 30, 30);
+    width: 34.2em;
+    height: 38em;
+    padding: 2em;
+    margin-right: 7em;
+}
 
-.message-box__p {
+.square__form__mision {
+    background-color: red;
+    margin-top: 2em;
+    width: 30.5em;
+    height: 27em;
+}
+
+.square__title__mision {
     color: white;
-    ;
-    display: block;
-}
-
-.video {
-    width: 4em;
-    margin-right: 1em;
-    margin-left: 1em;
-}
-
-
-span {
     font-weight: bold;
+    font-size: 1.5em;
+}
+
+.square_p__mision {
     font-size: 1.1em;
+    padding: 2em;
+    color: #fff;
 }
 
 .padding {
@@ -453,50 +439,7 @@ span {
     float: left;
     width: 50%;
     height: 25em;
-    display: block;
     padding: 2em;
-}
-
-
-.container__mision {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    background: url("../img//edificio.jpg");
-    align-items: center;
-    justify-content: start;
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-
-}
-
-.square__mision {
-    margin-top: 3em;
-    background-color: rgb(36, 30, 30);
-    width: 34.2em;
-    height: 38em;
-    margin-left: 53em;
-    padding: 2em;
-}
-
-.square__form__mision {
-    background-color: red;
-    margin-top: 2em;
-    width: 30.5em;
-    height: 30em;
-}
-
-.square__title__mision {
-    color: white;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-.square_p__mision {
-    font-size: 1.1em;
-    padding: 2em;
-    color: #fff;
 }
 
 
@@ -855,48 +798,418 @@ button:hover {
     color: #9c9898;
 }
 
-@media screen and (max-width: 1118px) {
+@media only screen and (max-width: 1118px) {
     .list__link {
         display: none;
     }
 
+    .main {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .list__link--active {
+        margin: 0;
+    }
+
+    .header__navbar {
+        position: fixed;
+        width: 100vw;
+    }
+
+    .input {
+        width: 6em;
+        padding: 0;
+        margin: 0;
+        margin-left: 1em;
+    }
+
+    .container__main {
+        width: 100vw;
+        display: grid;
+    }
+
+    .icon {
+        margin: 0.5em;
+        margin-bottom: 0;
+        width: 5em;
+    }
+
+    .items__container__h2 {
+        font-size: 2.8em;
+        position: absolute;
+        left: 3em;
+        width: 10em;
+    }
+
+    .items__container__p {
+        position: absolute;
+        left: 6.5em;
+        top:  2em;
+        width: 10em;
+    }   
+
+    .items__container__button{
+        position: absolute;
+        top:  1em;
+        top: 11em;
+        left:  16.5em;
+        font-size:  0.5em;
+    }
+
+    .container__img_info {
+        padding: 0;
+    }
+
+    .text-info {
+        padding: 0;
+    }
+
+    .text-icon {
+        font-size: 0.5em;
+    }
+
+    .form {
+        padding: 0;
+        margin: 0;
+    }
+
+    .list__menu {
+        margin: 0;
+        padding: 1.5em;
+    }
+
+    .img__logo {
+        padding: 0em;
+        position: relative;
+        width: 6em;
+        margin: 0;
+    }
+
+    .icon--apple {
+        position: absolute;
+        bottom: 10.5em;
+        width: 5em;
+        right: 0.5em;
+    }
+
+    .icon--google {
+        width: 5em;
+        position: absolute;
+        bottom: 7.9em;
+        right: 0.5em;
+    }
+
     .curses__container {
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
 
     .message-box {
         display: none;
     }
 
+    .slider__container {
+        width: 100vw;
+    }
+
     .curses__card__container {
-        display: grid;
-        grid-template-rows: repeat(auto-fit, minmax(min-content, 1fr));
-        grid-template-columns: repeat(2, minmax(min-content, 1fr));
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-content: center;
+    }
+
+    .curses__container__h2 {
+        width: 15em;
+        height: 2.5em;
+        line-height: 1.5em;
+    }
+
+    .student {
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+    }
+
+    .curses__container__h3 {
+        display: none;
+    }
+
+    .curses__card {
+        margin-top: 2em;
+        margin-left: 0;
+    }
+
+    .curses__card__title {
+        font-size: 2em;
+    }
+
+    .curses__card__p {
+        font-size: 1em;
+    }
+
+    .curses__card__img {
+        width: 100%;
+    }
+
+    .curses__card__button {
+        margin: 0;
+        margin-top: 1em;
+        font-size: 1em;
     }
 
     .container--info {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         height: 100%;
     }
 
-    .icon--apple {
-        position: absolute;
-        bottom: 7.5em;
-        right: 13em;
+    .container__about-us {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
     }
 
-    .icon--google {
-        position: absolute;
-        bottom: 7.9em;
-        right: 5em;
+    .square__about-us {
+        width: 90%;
+        margin: 1em;
+        margin: 0;
     }
 
-    .hiddenMobile{
+    .square__form__about-us {
+        width: 100%;
+    }
+
+    .square_p__about-us {
+        font-size: 0.9em;
+    }
+
+    .img__logo--2 {
+        position: relative;
+        width: 10em;
+        margin: 0;
+        left: 4em;
+        bottom: 1em;
+    }
+
+    .container__mission {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square__mision {
+        width: 90%;
+        margin: 1em;
+    }
+
+    .square__form__mision {
+        width: 100%;
+    }
+
+    .square_p__mision {
+        font-size: 0.9em;
+    }
+
+    .hiddenMobile {
         display: none;
-    }   
+    }
+
+    .padding {
+        display: flex;
+        flex-direction: column-reverse;  
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .padding__text {
+        font-size: 2.5em;
+        margin-left: 0.5em;
+    }
+
+    .padding__p {
+        font-size: 1em;
+    }
+
+    .logo2 {
+        width: 15em;
+        margin: 0;
+        padding: 2em;
+        margin-left: 4em;
+        top: 25em;
+        left:   1em;
+        position: relative;
+    }
+
+    .dir {
+        width: 100%;
+        height: 100%;
+        ;
+        position: relative;
+        bottom: 16em;
+
+    }
+
+    .container__values {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square__values {
+        width: 90%;
+        height: 60%;
+        margin: 1em;
+    }
+
+    .square__form__values {
+        width: 100%;
+        height: 22em;
+    }
+
+    .square_p__values {
+        font-size: 0.9em;
+    }
+
+    .map__container {
+        height: 12vh;
+    }
+
+    .map__title {
+        margin-top: 10em;
+        font-size: 1.6em;
+        margin: 0;
+        margin-top: 1em;
+        margin-left: 0.5em;
+    }
+
+    .map__p {
+        margin: 0;
+        padding: 0;
+        margin-left: 1em;
+    }
+
+    .map__scale {
+        width: 100%;
+        background-size: cover;
+        height: 33vh;
+    }
+
+    .cards {
+        width: 100%;
+        height: 230vh;
+    }
+
+    .cards__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin: 10em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        box-shadow:  none;
+    }
+
+
+    .brands__container{
+        height:  130vh;
+    }
+
+    .img__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:  100%;
+        justify-content:  center;
+        align-content:  center;
+    }
+
+    .brands__title{
+        margin:  0;
+        padding: 0;
+        position: relative;
+        top : 2em;
+        margin-left:  1em;
+    }
+
+    .brand__image{
+        margin:  0; 
+        padding:  0;
+    }
+
+    .contact-from__h3{
+        font-size:  1.5em;
+    }
+
+    .input__form{
+        height:  2.5em;
+    }
+
+    .footer__container{
+        display: flex;
+        flex-direction:  column;;
+        margin:  0;
+         height:  100vh;
+         justify-content:  center;
+    }
+
+    .footer__h3{
+        font-size:  1em;
+        margin:  0;
+        padding: 0;
+        text-align:  center;
+    }
+
+    .contact__container{
+        display:  flex;
+        flex-direction:  column;
+        justify-content:  center;
+        align-items:   center;
+        height:  100%;
+        margin:  1em;
+        margin-left:  4em;
+    }
+
+    .footer__p{
+        margin:  0;
+        text-align:  center;
+        padding:  0;
+    }
+    .img__logo--3{
+        position: relative;
+        height:  8em;
+        width:  15em;
+        margin:  0;
+        padding:  0;
+        margin-left:  5em;
+        border-right:  none;
+        margin-top:  1em;
+        margin-bottom:  1em;
+        border-bottom:  1px solid #fff;
+    }
+
+    .footer__about--us {
+        margin-top:  1em;
+        padding:  0;
+        margin:  0;
+    }
 }
