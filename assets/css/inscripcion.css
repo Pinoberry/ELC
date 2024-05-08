@@ -211,7 +211,7 @@ input:hover {
 
 .formulary__container {
     width: 100%;
-    height: 160vh;
+    height: 145vh;
 }
 
 .formulary__h2 {
@@ -225,11 +225,14 @@ input:hover {
 
 .calendar {
     margin-top: 3em;
-    width: 35em;
+    width:  34em;
     height: 10em;
     background-color: red;
     color: #fff;
     padding: 0.1px;
+    position: relative;
+    right:  5em;
+    bottom:  1em;
 }
 
 .calendar__title {
@@ -269,10 +272,9 @@ input:hover {
 .forms__container {
     display: flex;
     flex-direction: column;
-    ;
     height: 100%;
-    margin-left: 5em;
-    margin-top: 1em;
+    position: relative;
+    right:  12em;
 }
 
 .forms__p {
@@ -315,7 +317,7 @@ input:hover {
 }
 
 .p__child {
-    margin-top: 2em;
+    margin-top: 1em;
     color: red;
     font-weight: bold;
 }
@@ -337,9 +339,9 @@ input:hover {
 
 .float__container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
 }
 
 
@@ -576,8 +578,8 @@ button:hover {
     .list__link {
         display: none;
     }
-
-    .main {
+    
+    ain {
         width: 100%;
         height: 100vh;
         background-image: url(/assets/img/solar.jpg);
@@ -660,15 +662,9 @@ button:hover {
         width: 5em;
     }
 
-    .curses__container {
-        width: 100%;
-        height: 100%;
-    }
-
     .container__main {
         width: 100%;
     }
-
 
     .message-box {
         display: none;
@@ -678,11 +674,9 @@ button:hover {
         width: 100vw;
     }
 
-
     .message-box {
         display: none;
     }
-
 
     .container--info {
         display: flex;
@@ -717,17 +711,40 @@ button:hover {
         left: -9em;
     }
 
+    .formulary__container {
+        width: 100vw;
+        height: 150vh;
+    }
+
+    .forms__input {
+        width: 70vw;
+    }
+
+
+    .p__child{
+        margin:  0;
+        margin-top:  1em;
+    }
+
+    .forms__container {
+        position: static;
+        display:  flex;
+        width: 100vw;
+        height:  100vh;
+        flex-direction:  column;
+        justify-content:  center;
+        align-items:  center;
+    }
+
     .hiddenMobile {
         display: none;
     }
 
-
     .footer__container {
         display: flex;
         flex-direction: column;
-        ;
-        margin: 0;
-        height: 100vh;
+        height: 110vh;
+        width: 100vw;
         justify-content: center;
     }
 
@@ -748,10 +765,19 @@ button:hover {
         margin-left: 4em;
     }
 
+    .calendar{
+        width:  100%;
+        position: relative;
+        margin-bottom: 1em;
+        left: 0;
+    }
+
+
     .footer__p {
         margin: 0;
         text-align: center;
-        padding: 0;
+        padding: 1em;
+        padding-bottom: 1.2em;
     }
 
     .img__logo--3 {
@@ -770,5 +796,47 @@ button:hover {
     .footer__about--us {
         padding: 0;
         margin: 0;
+    }
+
+    .contact-from__h3 {
+        font-size: 1.6em;
+    }
+
+    .calendar {
+        width: 100%;
+        height: 27vh;
+    }
+
+    .calendar__title {
+        font-size: 1.4em;
+        margin: 0;
+    }
+
+    .formulary__h2 {
+        display: block;
+        margin-top:  1em;
+        width: 80%;
+        height:  2.5em;
+        background-color: #f00;
+        color: #fff;
+        margin: 0;
+        text-align:  center;
+        font-size:  1.2em;
+        margin-right:   8em;
+        padding-top: 0.5em;
+        padding-left:  3em;
+        background-image: url(../img/student.png);
+        background-position: left;
+    }
+
+    .calendar__icon{
+        margin-left:  2em;
+        margin-top:  0.5em;
+    }
+
+    .calendar__title{
+        margin: 0;
+        margin-left: 2em;
+        margin-top:  1.5em;
     }
 }

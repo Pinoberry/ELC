@@ -7,12 +7,12 @@ function cambiarColor(slide) {
     if (slide.style.backgroundColor === 'red') {
         slide.style.backgroundColor = ''; 
     } else {
-        slide1.style.backgroundColor = ''; // Primero restablece todos los slides a blanco
-        slide2.style.backgroundColor = '';
+        slide1.style.backgroundColor = ''; 
+        slide2.style.backgroundColor = ''; 
         slide3.style.backgroundColor = '';
         slide4.style.backgroundColor = '';
         
-        slide.style.backgroundColor = 'red'; // Luego establece el slide actual a rojo
+        slide.style.backgroundColor = 'red'; 
     }
 }
 
@@ -33,3 +33,13 @@ slide4.addEventListener('click', function() {
 });
 
 slide1.style.backgroundColor='red';
+
+
+
+let toggle = document.getElementById('toggle');
+let label_toggle = document.getElementById('label__toggle')
+
+toggle.addEventListener('change', (event) => {
+    let checked=event.target.checked;
+    document.body.classList.toggle('dark');
+} )
