@@ -6,34 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admisión</title>
     <link rel="stylesheet" href="assets/css/admision.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/logo2.jpg" type="image/x-icon">
 </head>
 
-<body>
+<body class="dark">
     <header class="header">
         <nav class="header__navbar">
             <label for="nav__logo">
                 <img src="assets/img/logo.png" alt="" class="img__logo">
             </label>
 
-            <form action="">
+            <form action="" class="form">
                 <input type="text" class="input" maxlength="32">
                 <img src="assets/icons/search.svg" alt="" class="search">
             </form>
 
             <ul class="navbar__list">
+                <input type="checkbox" id="toggle">
+                <label for="toggle" id="label__toggle">
+                    <img src="/assets/icons/moon.svg" alt="" class="moon">
+                </label>
                 <a href="home.html" class="list__link">INICIO</a>
                 <a href="#" class="list__link">CURSOS SENCE</a>
-                <a href="#" class="list__link">CAPACITACIONES</a>
+                <a href="formulario-prescripcion.html" class="list__link">INSCRIPCION</a>
                 <a href="#" class="list__link--active">INGRESO</a>
             </ul>
             <label for="nav__menu">
-                <img src="assets/icons/menu.svg" alt="" class="list__menu">
+                <label for="menu" id="label__toggle">
+                    <img src="assets/icons/menu.svg" alt=""   class="list__menu">
+                </label>
+                <input type="checkbox" id="menu" >
+                <ul class="hamburger">
+                    <li class="hamburger__item">
+                        <img  class="hamburger__icon" src="/assets/icons/book.svg" alt="">
+                        <a href="">link 1</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <img class="hamburger__icon" src="/assets/icons/chat.svg" alt="">
+                        <a href="">link 2</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <img class="hamburger__icon" src="/assets/icons/medal.svg" alt="">
+                        <a href="">link 3</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <img class="hamburger__icon" src="/assets/icons/institution.svg" alt="">
+                        <a href="">link 4</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <img class="hamburger__icon" src="/assets/icons/email.svg" alt="">
+                        <a href="">link 5</a>
+                    </li>
+                
+                </ul>
             </label>
         </nav>
     </header>
@@ -81,7 +106,7 @@
             <a href="" class="text-icon">Capacitaciones</a>
         </section>
         <section class="container__main">
-            <img src="assets/img/chat.png" alt="" class="icon hiddenMobile">
+            <img src="assets/img/chat.png" alt="" class="icon">
             <a href="" class="text-icon">Contacto</a>
         </section>
         <section class="container__main">
@@ -99,33 +124,24 @@
         <h2 class="curses__container__h2">Cursos por Áreas</h2>
         <h3 class="curses__container__h3">Conoce todo sobre nuestros cursos:</h3>
         <article class="curses__card__container">
-            <div class="curses__card">
-                <img src="assets/img/electrico1.jpg" alt="" class="img">
-                <h3 class="curses__card__title">Mécanica </h3>
+            <div class="curses__card card__mecanico">
+                <img src="assets/img/electrico1.jpg" alt="" class="curses__card__img">
+                <h3 class="curses__card__title">Cursos Mécanica </h3>
                 <p class="curses__card__p">Comprender los fundamentos del
                     funcionamiento de su vehículo le permite
                     tomar decisiones con conocimiento de causa,
                     ahorrar dinero en reparaciones y garantizar su
                     seguridad en la carretera. Empiece hoy mismo
                     su viaje hacia el dominio del automóvil.</p>
-                <button class="curses__card__button">LEER MÁS</button>
-                <button class="curses__card__button">VER CURSOS</button>
+                <ul>
+                    <li><a href="" class="card__link">MECÁNICA AUTOMOTRIZ</a></li>
+                    <li><a href="" class="card__link">ELECTRICIDAD E INYECCIÓN ELECTRÓNICA AUTOMOTRIZ</a></li>
+                    <li><a href="" class="card__link">INYECCIÓN ELECTRÓNICA DE MOTOS</a></li>
+                    <li><a href="" class="card__link">MECÁNICA DE MOTOS</a></li>
+                </ul>
             </div>
-            <div class="curses__card">
-                <img src="assets/img/electrico2.jpg" alt="" class="img">
-                <h3 class="curses__card__title">Eléctrica</h3>
-                <p class="curses__card__p">Ya sea en casa o en algún lugar de trabajo, unos
-                    conocimientos eléctricos adecuados
-                    garanzan la seguridad, la eficiencia y el
-                    cumplimiento de las normas legales.
-                    Manténgase al día, seguro y capacitado con
-                    los conocimientos sobre instalaciones y
-                    normativas eléctricas</p>
-                <button class="curses__card__button">LEER MÁS</button>
-                <button class="curses__card__button">VER CURSOS</button>
-            </div>
-            <div class="curses__card">
-                <img src="assets/img/mecanico1.jpg" alt="" class="img">
+            <div class="curses__card card__gafiteria">
+                <img src="assets/img/mecanico1.jpg" alt="" class="curses__card__img">
                 <h3 class="curses__card__title">Gasfitería</h3>
                 <p class="curses__card__p">La Gasfitería es el héroe anónimo de todas las
                     casa y edificios, ya que trabaja silenciosamente
@@ -134,21 +150,47 @@
                     inodoros hasta duchas, un sistema de gasfitería
                     bien mantenido es esencial para la comodidad
                 </p>
-                <button class="curses__card__button">LEER MÁS</button>
-                <button class="curses__card__button">VER CURSOS</button>
+                <li><a href="" class="card__link">CALEFONT IONIZADO CON PREPARACIÓN NORMATIVA SE</a></li>
+                <li><a href="" class="card__link">CALEFONT IONIZADO Y PREPARACIÓN PARA
+                        NORMATIVA SEC (GAS)</a></li>
+                <li><a href="" class="card__link">GASFITERÍA, CALEFONT IONIZADO Y PREPARACIÓN
+                        EXAMEN SEC CLASE 3</a></li>
             </div>
+            <div class="curses__card card__electrico">
+                <img src="assets/img/electrico2.jpg" alt="" class="curses__card__img">
+                <h3 class="curses__card__title">Eléctrica</h3>
+                <p class="curses__card__p">
+                    Ya sea en casa o en algún lugar de trabajo, unos
+                    conocimientos eléctricos adecuados
+                    garanzan la seguridad, la eficiencia y el
+                    cumplimiento de las normas legales.
+                    Manténgase al día, seguro y capacitado con
+                    los conocimientos sobre instalaciones y
+                    normativas eléctricas</p>
+                <ul>
+                    <li><a href="" class="card__link">CURSO DE PREPARACIÓN PARA ACREDITACIÓN SEC</a></li>
+                    <li><a href="" class="card__link">ENERGÍA SOLAR FOTOVOLTAICA</a></li>
+                    <li><a href="" class="card__link">INSTALACIONES ELÉCTRICAS DOMICILIARIA E INDUSTRIAL
+                            CON PREPARACIÓN CLASE D</a></li>
+                    <li><a href="" class="card__link">INSTALADOR Y MANTENEDOR ELÉCTRICO DOMICILIARIO
+                            CON NORMA SEC CLASE D</a></li>
+                </ul>
+            </div>
+
             <div class="curses__card">
-                <img src="assets/img/mecanico2.jpg" alt="" class="img">
+                <img src="assets/img/mecanico2.jpg" alt="" class="curses__card__img">
                 <h3 class="curses__card__title">Refrigeración</h3>
                 <p class="curses__card__p">A medida que las temperaturas siguen subiendo
                     en todo el mundo, no se puede exagerar la
                     importancia de los sistemas de refrigeración y
                     aire acondicionado. Estos sistemas desempeñan
                     un papel crucial en el mantenimiento de
-                    ambientes interiores confortables, especialmente
-                    durante los veranos abrasadores.</p>
-                <button class="curses__card__button">LEER MÁS</button>
-                <button class="curses__card__button">VER CURSOS</button>
+                    ambientes interiores confortables.</p>
+                <ul>
+                    <li><a href="" class="card__link">AIRE ACONDICIONADO</a></li>
+                    <li><a href="" class="card__link">REFRIGERACIÓN</a></li>
+                    <li><a href="" class="card__link">REFRIGERACIÓN YAIRE ACONDICIONADO</a></li>
+                </ul>
             </div>
         </article>
     </section>
@@ -202,10 +244,9 @@
             <p class="message-box__p">
                 <a href=""><span>¿Tienes Dudas?</span></a>
                 <br>
-                Haz clic e Ingresa a un
-                Video Chat Online
+                Inicia un vídeo chat de consulta aquí
             </p>
-            </artcile>
+        </article>
     </section>
 
     <section class="container--info">
@@ -311,6 +352,8 @@
         <h3 class="cards__title">TESTIMONIOS</h3>
         <h3 class="cards__title__cursive">De nuestros estudiantes</h3>
 
+
+        
         <div class="cards__container">
             <div class="card">
                 <h3 class="card__title">Maria Rodriguez </h3>
@@ -391,7 +434,6 @@
         </div>
     </article>
 
-
     <article class="brands__container">
         <h3 class="brands__title">CLIENTES</h3>
         <section class="img__container">
@@ -459,7 +501,7 @@
 
         <div class="contact__container">
             <h3 class="footer__h3 footer__h3--active">CURSO SENCE</h3>
-            <p class="footer__p footer__p--active">c
+            <p class="footer__p footer__p--active">
                 <a href="">Cursos SENCE</a>
                 <br>
                 <a href="">Cursos</a>
