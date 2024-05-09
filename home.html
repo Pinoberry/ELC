@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="assets/img/logo2.jpg" type="image/x-icon">
 </head>
 
-<body>
+<body class="dark">
 
     <header class="header">
         <nav class="header__navbar">
@@ -22,23 +22,52 @@
                 <img src="assets/img/logo.png" alt="" class="img__logo">
             </label>
 
-            <form action="">
+            <form action="" class="form">
                 <input type="text" class="input" maxlength="32">
                 <img src="assets/icons/search.svg" alt="" class="search">
             </form>
 
             <ul class="navbar__list">
-                <a href="admision.html" class="list__link">ADMISIÓN</a>
-                <a href="#" class="list__link">CURSOS SENCE</a>
-                <a href="#" class="list__link">CAPACITACIONES</a>
-                <a href="#" class="list__link list__link--active">INGRESO</a>
+                <input type="checkbox" id="toggle">
+                <label for="toggle" id="label__toggle">
+                    <img src="assets/icons/moon.svg" alt="" class="moon">
+                </label>
+                <a href="admision.html" class="list__link">INICIO</a>
+                <a href="energia-solar.html" class="list__link">CURSOS SENCE</a>
+                <a href="formulario-prescripcion.html" class="list__link">INSCRIPCION</a>
+                <a href="#" class="list__link--active">ACCESO</a>
             </ul>
-
             <label for="nav__menu">
-                <img src="assets/icons/menu.svg" alt="" class="list__menu" class="img__logo">
+                <label for="menu" id="label__toggle">
+                    <img src="assets/icons/menu.svg" alt="" class="list__menu">
+                </label>
+                <input type="checkbox" id="menu">
+                <ul class="hamburger">
+                    <li class="hamburger__item">
+                        <img class="hamburger__icon" src="assets/icons/book.svg" alt="">
+                        <a href="">link 1</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <img class="hamburger__icon" src="assets/icons/chat.svg" alt="">
+                        <a href="">link 2</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <img class="hamburger__icon" src="assets/icons/medal.svg" alt="">
+                        <a href="">link 3</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <img class="hamburger__icon" src="assets/icons/institution.svg" alt="">
+                        <a href="">link 4</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <img class="hamburger__icon" src="assets/icons/email.svg" alt="">
+                        <a href="">link 5</a>
+                    </li>
+                </ul>
             </label>
         </nav>
     </header>
+
 
     <main class="main">
         <section class="video__container">
@@ -406,7 +435,7 @@
         </div>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="darkmode.js"></script>
 </body>
 
 </html>

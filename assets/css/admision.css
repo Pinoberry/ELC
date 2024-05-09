@@ -30,20 +30,6 @@
     position: relative
 }
 
-.dark {
-    background-color: #353536;
-    color: white;
-    transition: all 1s ease;
-}
-
-.moon {
-    width: 1.6em;
-    position: absolute;
-    right: 42em;
-    bottom: 1.7em;
-    transition: 0.5s;
-}
-
 #toggle {
     display: none;
 }
@@ -82,6 +68,71 @@ input:hover {
     margin: 0 1.8em;
 }
 
+
+.dark {
+    background-color: #353536;
+    color: white;
+    transition: all 1s ease;
+}
+
+.moon {
+    width: 1.6em;
+    position: absolute;
+    right: 42em;
+    bottom: 1.7em;
+    transition: 0.5s;
+}
+
+#toggle {
+    display: none;
+}
+
+.moon:hover {
+    box-shadow: 1px 1px 5px 5px #9c9898;
+    border-radius: 50%;
+}
+
+#menu {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+#menu:checked~.hamburger {
+    background-color: #20191978;
+    display: flex;
+    padding-top: 1em;
+    position: absolute;
+    flex-direction: column;
+    transform: translateY(-0.5em);
+    height: 100vh;
+    width: 12em;
+    right: 0;
+    list-style: none;
+    gap: 3em;
+    align-items: center;
+    z-index: -1;
+    font-size: 1.2em;
+}
+
+.hamburger__icon {
+    position: relative;
+    right: 0.5em;
+    top: 0.5em;
+    width: 2em;
+}
+
+
+.list__menu:hover {
+    border-radius: 30%;
+    box-shadow: 1px 1px 10px 5px #9c9898;
+}
+
+
+
 .list__link--active {
     background-color: red;
     width: 8em;
@@ -95,6 +146,25 @@ input:hover {
 .list__link:hover {
     color: #9c9898;
 }
+
+
+.dark {
+    background-color: #353536;
+    color: white;
+    transition: all 1s ease;
+}
+
+
+#toggle {
+    display: none;
+}
+
+.moon:hover {
+    box-shadow: 1px 1px 5px 5px #9c9898;
+    border-radius: 50%;
+}
+
+
 
 .list__menu {
     height: 3em;
@@ -516,6 +586,10 @@ span {
     display: none;
 }
 
+
+body:hover{
+    transition: 1.5s;
+}
 
 #menu:checked~.hamburger {
     background-color: #20191978;

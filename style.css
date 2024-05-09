@@ -64,6 +64,50 @@ main {
     flex-wrap: wrap;
     /* flex-shrink: 1; */
 }
+
+
+.message-box {
+    background-color: rgba(255, 0, 0);
+    position: fixed;
+    bottom: 3em;
+    left: 0;
+    width: 17em;
+    height: 5.5em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 1;
+    border: 5px solid #000
+}
+
+.message-box__p {
+    color: white;
+    width: 60%;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a{
+    text-decoration:  none;
+    color: #fff;
+}
+
+a:hover{
+    color: #9c9898;
+    transition: 0.5s;
+}
+
+.video {
+    width: 4em;
+    margin-right: 1em;
+    margin-left: 1em;
+    float:  right;
+}
+
 .logo{
     display: flex;
     max-width: 25vw;
