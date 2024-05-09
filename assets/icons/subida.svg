@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="755" height="755" viewBox="0 0 755 755">
+  <defs>
+    <clipPath id="clip-ICONOS_INTERNOS_AREA_ELÉCTRICA_4">
+      <rect width="755" height="755"/>
+    </clipPath>
+  </defs>
+  <g id="ICONOS_INTERNOS_AREA_ELÉCTRICA_4" data-name="ICONOS INTERNOS AREA ELÉCTRICA – 4" clip-path="url(#clip-ICONOS_INTERNOS_AREA_ELÉCTRICA_4)">
+    <rect width="755" height="755" fill="#fff"/>
+    <g id="_Group_" data-name="&lt;Group&gt;" transform="translate(87.258 129.072)">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M560.3,74h-.019l-89.516.1a11.36,11.36,0,1,0,.018,22.721h.019l61.043-.07-212.389,203.6-74.894-66.32a11.411,11.411,0,0,0-14.606-.432L14.14,402.87a11.411,11.411,0,0,0,14.084,17.959l208.328-163.4,75.641,66.991a11.411,11.411,0,0,0,15.462-.306L548.839,112.1l-.1,58.8a11.46,11.46,0,0,0,11.394,11.5h.021a11.469,11.469,0,0,0,11.411-11.458l.152-85.569A11.367,11.367,0,0,0,560.3,74Z" transform="translate(0 0)" fill="#dc1c17"/>
+    </g>
+  </g>
+</svg>

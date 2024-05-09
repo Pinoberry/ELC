@@ -5,34 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Energía Solar</title>
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/curso.css">
+    <link rel="shortcut icon" href="assets/img/logo2.jpg" type="image/x-icon">
 </head>
 
-<body>
-    <header>
+
+<body class="dark">
+    <header class="header">
         <nav class="header__navbar">
             <label for="nav__logo">
                 <img src="assets/img/logo.png" alt="" class="img__logo">
             </label>
 
-            <form action="">
+            <form action="" class="form">
                 <input type="text" class="input" maxlength="32">
                 <img src="assets/icons/search.svg" alt="" class="search">
             </form>
 
-            <ul>
+            <ul class="navbar__list">
+                <input type="checkbox" id="toggle">
+                <label for="toggle" id="label__toggle">
+                    <img src="assets/icons/moon.svg" alt="" class="moon">
+                </label>
                 <a href="home.html" class="list__link">INICIO</a>
-                <a href="#" class="list__link">CURSOS SENCE</a>
-                <a href="#" class="list__link">CAPACITACIONES</a>
-                <a href="#" class="list__link--active">INGRESO</a>
+                <a href="energia-solar.html" class="list__link">CURSOS SENCE</a>
+                <a href="formulario-prescripcion.html" class="list__link">INSCRIPCION</a>
+                <a href="#" class="list__link--active">ACCESO</a>
             </ul>
             <label for="nav__menu">
-                <img src="assets/icons/menu.svg" alt="" class="list__menu">
+                <label for="menu" id="label__toggle">
+                    <img src="assets/icons/menu.svg" alt="" class="list__menu">
+                </label>
+                <input type="checkbox" id="menu">
+                <ul class="hamburger">
+                    <li class="hamburger__item">
+                        <a href="">CURSOS SENCE</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <a href="">CAPACITACIONES</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <a href="">TRABAJA CON NOSOTROS</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <a href="">CONTACTO</a>
+                    </li>
+                </ul>
             </label>
         </nav>
     </header>
-
 
     <!-- MAIN -->
     <main class="panel-main font-white" style="margin-top: 0vw;">
@@ -62,10 +83,10 @@
                             <img src="assets/icons/call.svg" alt="telefono celular" class="icon">
                             <p> ¿Por donde quiere ser contactado? </p>
                         </div>
-                        <div>
-                            <input type="radio" name="contacto" id="whatsapp" value="whatsapp">
-                            <label for="whatsapp">Whatsapp</label>
-                            <input type="radio" name="contacto" id="video" value="video">
+                        <div class="align-center">
+                            <input type="radio" name="contacto" id="whatsapp" value="whatsapp" style="margin-right: 0.5em;"; >
+                            <label for="whatsapp" style="margin-right: 1em;">Whatsapp</label>
+                            <input type="radio" name="contacto" id="video" value="video" style="margin-right: 0.5em;";>
                             <label for="video">Video Chat</label>
                         </div>
                         <div class="align-center">
@@ -84,7 +105,7 @@
                         <img class="icon" src="assets\icons\google-play-4.svg" alt="google play store">
                         <img class="icon" src="assets\icons\apple.svg" alt="apple app store">
                     </div>
-                    <img class="icon" src="assets\img\borrar\elc.png" alt="logo electro mechanics">
+                    <img class="icon" src="assets/img/logo2.jpg" alt="logo electro mechanics">
                 </div>
             </div>
         </div>
@@ -133,7 +154,7 @@
     </article>
     <!-- BENEFICIOS -->
     <article class="panel-main panel-beneficios align-center"
-        style="background-image: url(assets/img/borrar/levantar_panele_solar.png);">
+        style="background-image: url(assets/img/solar.jpg); background-position: bottom;; background-size: cover;">
         <h1 class="font-big beneficios-titulo"> BENEFICIOS DEL CURSO </h1>
         <!-- PANELES -->
         <div class="grow">
@@ -218,18 +239,18 @@
         <h1 class="porque-titulo"> ¿POR QUÉ ESTUDIAR ENERGÍA SOLAR? </h1>
         <div class="horizontal grow align-center">
             <div style="flex-grow: 2;"></div>
-            <div class="porque-item">
-                <img src="assets/icons/book.svg" alt="icono de mundo">
+            <div class="porque-item align-top">
+                <img src="assets/icons/redes.svg" alt="icono de mundo " class="icon-info">
                 <p> La inversión mundial en energía solar aumentó 9 veces desde 2005. </p>
             </div>
             <div style="flex-grow: 1;"></div>
-            <div class="porque-item">
-                <img src="assets\icons\book.svg" alt="icono de generador">
+            <div class="porque-item align-top">
+                <img src="assets/icons/subida.svg" alt="icono de generador" class="icon-info">
                 <p> En 2010 exisan 250 GW de instalaciones solares mientras que en 2015 aumentó a 430 GW. </p>
             </div>
             <div style="flex-grow: 1;"></div>
-            <div class="porque-item">
-                <img src="assets\icons\book.svg" alt="icono de panel solar">
+            <div class="porque-item align-top">
+                <img src="assets\icons/panelsolar.svg" alt="icono de panel solar" class="icon-info">
                 <p> En Marzo de 2024, Chile obtuvo 6.328 MW de instalaciones solares, cubriendo un 20% de la energía
                     demandada. </p>
             </div>
@@ -237,14 +258,14 @@
         </div>
         <div class="horizontal grow align-center">
             <div style="flex-grow: 3;"></div>
-            <div class="porque-item">
-                <img src="assets\icons\book.svg" alt="icono de persona trabajando">
+            <div class="porque-item align-top">
+                <img src="assets\icons/maletin.svg" alt="icono de persona trabajando" class="icon-info">
                 <p>En Chile se espera que de aquí al año 2023 se necesiten más de 12mil puestos de trabajo en el área de
                     paneles solares.</p>
             </div>
             <div style="flex-grow: 1;"></div>
-            <div class="porque-item">
-                <img src="assets\icons\book.svg" alt="icono de saludo de manos">
+            <div class="porque-item align-top">
+                <img src="assets\icons/manos.svg" alt="icono de saludo de manos" class="icon-info">
                 <p>En Chile se espera que de aquí al año 2023 se necesiten más de 12mil puestos de trabajo en el área de
                     paneles solares</p>
             </div>
@@ -441,10 +462,11 @@
             </p>
         </section>
         <div class="mercado-background"></div>
-        <img src="assets/img/borrar/grafico.png" alt="grafico sobre el mercado de paneles solares" class="mercado-img">
+        <img src="assets/icons/Grafico Energia Solar.svg"" alt=" grafico sobre el mercado de paneles solares"
+            class="mercado-img">
     </article>
     <!-- ADMISION -->
-    <article class="horizontal panel-admision grow-soft" style="background-image: url(assets/img/edificio.jpg);">
+    <article class="horizontal panel-admision grow-soft">
         <div class="align-end">
             <img src="assets/img/logo.png" alt="logo de Electromechanics" class="logo">
         </div>
@@ -456,33 +478,49 @@
         </div>
     </article>
     <!-- CONTACTO -->
-    <article class="footer panel-contacto align-center vertical">
-        <section class="align-center text-center">
-            <h1> ¿Deseas ser contactado por uno de nuestros ejecutivos? </h1>
-            <form action="submit.php" class="vertical align-center">
-                <p> Ingresa la siguiente información: </p>
-                <input style="background: url(assets/icons/user.svg) no-repeat 1em;" type="text" id="nombre"
-                    name="nombre" placeholder="Nombre">
-                <input style="background: url(assets/icons/email.svg) no-repeat 1em;" type="text" id="correo"
-                    name="correo" placeholder="Correo Electronico">
-                <input style="background: url(assets/icons/call.svg) no-repeat 1em;" type="text" id="celular"
-                    name="celular" placeholder="Celular">
-                <button type="submit"> ENVIAR </button>
-            </form>
-        </section>
+    <article class="contact--form__container">
+        <h3 class="contact-from__h3">
+            ¿Deseas ser contactado por uno <br>
+            de nuestros ejecutivos?
+        </h3>
+        <p class="contact-from__p">Ingresa la siguiente información:</p>
+
+
+        <form action="">
+            <input type="text" placeholder="Nombre" class="input__form" maxlength="37">
+            <img src="assets/icons/user.svg" alt="" class="icon__form">
+        </form>
+
+        <form action="">
+            <input type="email" placeholder="Correo electrónico" class="input__form" maxlength="37">
+            <img src="assets/icons/email.svg" alt="" class="icon__form">
+
+        </form>
+
+
+        <form action="">
+            <input type="tel" placeholder="Celular" class="input__form" maxlength="11">
+            <img src="assets/icons/call.svg" alt="" class="icon__form">
+
+        </form>
+
+        <form action="">
+            <input type="submit" value="Enviar" class="submit">
+        </form>
     </article>
+
     <!-- FOOTER -->
     <!-- <article class="footer panel-main panel-footer" style="margin-top: 0px;"> -->
     <!-- </article> -->
 
+
+
     <footer class="footer__container">
         <img src="assets/img/logo.png" alt="" class="img__logo--3">
-
-
         <div class="contact__container">
             <h3 class="footer__h3 footer__about--us ">SOBRE NOSOTROS</h3>
             <p class="footer__p">
-                <a href="">Electromechanics </a>
+                <a href="">Electromecnics </a>
                 <br>
                 <a href="">Contacto</a>
                 <br>
@@ -534,6 +572,9 @@
             </p>
         </div>
     </footer>
+
+
+    <script src="darkmode.js"></script>
 </body>
 
 </html>
