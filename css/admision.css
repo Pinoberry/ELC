@@ -30,7 +30,7 @@
 }
 
 #toggle {
-    display: none;
+    display: block;
 }
 
 .moon:hover {
@@ -580,7 +580,6 @@ span {
 }
 
 #menu {
-    display: none;
 }
 
 .hamburger {
