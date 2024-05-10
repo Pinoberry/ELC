@@ -11,7 +11,7 @@
     height: 5em;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     width: 100%;
     z-index: 5;
 }
@@ -23,7 +23,7 @@
 }
 
 .input {
-    margin-left: -25em;
+    margin-left: -38em;
     border-radius: 3em;
     width: 20em;
     height: 3em;
@@ -43,15 +43,11 @@
 }
 
 .moon {
-    width: 2em;
-    margin-bottom: 5px;
+    width: 1.6em;
+    position: absolute;
+    right: 42em;
+    bottom: 1.7em;
     transition: 0.5s;
-    border-radius: 100%;
-}
-.moon__btn{
-    border-radius: 100%;
-    background-color: transparent;
-    border-color: transparent;
 }
 
 #toggle {
@@ -60,8 +56,7 @@
 
 .moon:hover {
     box-shadow: 1px 1px 5px 5px #9c9898;
-    background-color: white;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 
@@ -144,10 +139,10 @@ input:hover {
 }
 
 .img__logo {
-    display: flex;
+    display: inline-block;
     width: 15em;
+    margin-right: 32em;
     padding: 2em;
-    justify-content: start;
 }
 
 .main {
@@ -321,9 +316,6 @@ span {
     width: 100%;
     height: 20em;
     background-color: rgb(36, 30, 30);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -466,8 +458,6 @@ span {
     background-size: cover;
     background-position: center;
     background-image: url("../assets/img/mapa.png");
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
 
 
@@ -486,7 +476,6 @@ span {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    text-transform: uppercase;
 }
 
 
@@ -558,33 +547,31 @@ span {
     width: 100%;
     height: 20em;
     padding: 0.1px;
-    margin-top: 5em;
-    margin-bottom: 10em;
 }
 
 
 .brands__title {
     color: red;
-    font-size: 3em;
-    text-transform: uppercase;
-    padding-left: 100px;
+    font-size: 1.5em;
+    margin-left: 4em;
+    margin-top: 1.5em;
 }
 
 .img__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-left: 200px;
-    padding-right: 200px;
+    justify-content: center;
+    align-content: center;
     column-gap: 7em;
     row-gap: 1em;
-    height: 23em;
-
+    height: 13em;
+    filter: grayscale(1);
+    background-color: transparent;
 }
 
 .brand__image {
     width: 10em;
-    height: 10em;
+    height: 5em;
     object-fit: contain;
 }
 
@@ -741,48 +728,7 @@ a:hover {
 .landing__video {
     position: relative;
     width: 100%;
-    height: 80%;
-    min-height: 80%;
-    object-fit:contain;
+    height: 100%;
+    object-fit:  fill;
     z-index: -1;
 }
-
-@media screen and (max-width: 768px) {
-    /* Styles for small screens */
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for medium screens */
-}
-
-@media screen and (min-width: 1025px) {
-    /* Styles for large screens */
-}
-
-@media (prefers-color-scheme: dark) {
-     /* Code for dark mode */ ¨
-     .brands__container{
-        background-color: #5a5a5c ;
-    }
-    img__container{
-         background-color: #5a5a5c ;
-     }
-    }
-
-@media (prefers-color-scheme: light) {
-     /* Code for light mode */ 
-     .dark {
-        background-color: #fff;
-        color: black;
-        transition: all 1s ease;
-    }
-     .img__container{
-        background-color: #a5a5a5;
-     }
-     .brands__container{
-        background-color: #a5a5a5;
-     }
-     .brands__title{
-        color: #fff;
-     }
-    }
