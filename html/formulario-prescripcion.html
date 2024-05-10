@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-Pre-inscripción</title>
+    <link rel="stylesheet" href="../css/inscripcion.css">
+    <link rel="shortcut icon" href="../assets/img/logo2.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__navbar">
+            <label for="nav__logo">
+                <img src="../assets/img/logo.png" alt="" class="img__logo">
+            </label>
+
+            <form action="" class="form">
+                <input type="text" class="input" maxlength="32">
+                <img src="../assets/icons/search.svg" alt="" class="search">
+            </form>
+
+            <ul class="navbar__list">
+                <input type="checkbox" id="toggle">
+                <label for="toggle" id="label__toggle">
+                    <img src="../assets/icons/moon.svg" alt="" class="moon">
+                </label>
+                <a href="../index.html" class="list__link">INICIO</a>
+                <a href="energia-solar.html" class="list__link">CURSOS SENCE</a>
+                <a href="formulario-prescripcion.html" class="list__link">INSCRIPCION</a>
+                <a href="#" class="list__link--active">ACCESO</a>
+            </ul>
+            <label for="nav__menu">
+                <label for="menu" id="label__toggle">
+                    <img src="../assets/icons/menu.svg" alt="" class="list__menu">
+                </label>
+                <input type="checkbox" id="menu">
+                <ul class="hamburger">
+                    <li class="hamburger__item">
+                        <a href="">CURSOS SENCE</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <a href="">CAPACITACIONES</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <a href="">TRABAJA CON NOSOTROS</a>
+                    </li>
+                    <li class="hamburger__item">
+                        <a href="">CONTACTO</a>
+                    </li>
+                </ul>
+            </label>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="slider__container hiddenMobile">
+            <div class="slider__wrapper hiddenMobile">
+                <div class="slider hiddenMobile">
+                    <img src="../assets/img/solar.jpg" alt="" id="slide-1">
+                    <img src="../assets/img/electrico1.jpg" alt="" id="slide-2">
+                    <img src="../assets/img/electronica.jpg" alt="" id="slide-3">
+                    <img src="../assets/img/electrico2.jpg" alt="" id="slide-4">
+                </div>
+
+                <div class="slider__nav">
+                    <a href="#slide-1" class="slide1"></a>
+                    <a href="#slide-2" class="slide2"></a>
+                    <a href="#slide-3" class="slide3"></a>
+                    <a href="#slide-4" class="slide4"></a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="items__container">
+            <h2 class="items__container__h2">INSCRIPCIONES 2024</h2>
+            <p class="items__container__p">Matrículas abiertas</p>
+            <button class="items__container__button">Inscribete Aquí ---></button>
+        </section>
+
+        <section class="container__main">
+            <a href=""><img src="../assets/icons/apple.svg" alt="" class="icon--apple"></a>
+            <a href=""><img src="../assets/icons/google-play-4.svg" alt="" class="icon--google"></a>
+            <a href=""><img src="../assets/img/logo2.jpg" alt="" class="icon--elc"></a>
+        </section>
+    </main>
+
+    <section class="formulary__container">
+
+        <h2 class="formulary__h2">Formulario Preinscripción</h2>
+        <div class="calendar">
+            <h2 class="calendar__title">
+                Curso de Mécanica Automotriz
+            </h2>
+            <img src="../assets/icons/calendar.svg" alt="" class="calendar__icon">
+            <p class="calendar__p">
+                Horarios:
+                <br>
+                Inicio Lunes 12/05/2024
+                <br>
+                Clases de 18:00 a 22:00 hrs.
+            </p>
+        </div>
+        <div class="forms__container">
+            <label for="nombre">
+                <p class="forms__p">NOMBRE COMPLETO</p>
+                <input type="text" class="forms__input" id="nombre">
+            </label>
+            <label for="rut">
+                <p class="forms__p">RUT</p>
+                <input type="text" class="forms__input" id="rut">
+            </label>
+            <label for="correro">
+                <p class="forms__p">CORREO ELECTRÓNICO</p>
+                <input type="text" class="forms__input" id="correo">
+            </label>
+            <label for="celular">
+                <div class="forms__p">CELULAR</div>
+                <input type="text" class="forms__input" id="celular">
+            </label>
+            <label for="">
+                <p class="forms__p">ANTIGUEDAD LABORAL</p>
+                <input type="text" class="forms__input" id="rut" placeholder="Ingresar años">
+            </label>
+            <label for="">
+                <p class="forms__p">NIVEL DE ESTUDIOS</p>
+                <input type="text" class="forms__input" placeholder="Seleccione su nivel de estudios" list="estudies">
+            </label>
+            <p class="forms__p forms__p--sex">SEXO</p>
+            <label for="" class="forms__label">
+                <input type="radio" class="forms__input--radio" value="Femenino">
+                <p class="forms__p--radio">Femenino</p>
+                <input type="radio" class="forms__input--radio" value="Masculino">
+                <p class="forms__p--radio">Masculino</p>
+            </label>
+
+            <datalist id="estudies">
+                <option>Universitario</option>
+                <option>Secundario</option>
+                <option>Primario</option>
+            </datalist>
+
+            <p class="p__child">Si el alumno es menor de edad</p>
+            <label for="">
+                <p class="forms__p">NOMBRE APODERADO</p>
+                <input type="text" class="forms__input">
+            </label>
+
+            <label for="">
+                <p class="forms__p">RUT APODERADO</p>
+                <input type="text" class="forms__input">
+            </label>
+
+            <button class="forms__button">Continuar --></button>
+        </div>
+    </section>
+
+
+    <article class="contact--form__container">
+        <h3 class="contact-from__h3">
+            ¿Deseas ser contactado por uno <br>
+            de nuestros ejecutivos?
+        </h3>
+        <p class="contact-from__p">Ingresa la siguiente información:</p>
+
+
+        <form action="">
+            <input type="text" placeholder="Nombre" class="float__input__form" maxlength="37">
+            <img src="../assets/icons/user.svg" alt="" class="icon__form">
+        </form>
+
+        <form action="">
+            <input type="email" placeholder="Correo electrónico" class="input__form" maxlength="37">
+            <img src="../assets/icons/email.svg" alt="" class="icon__form">l
+        </form>
+
+        <form action="">
+            <input type="tel" placeholder="Celular" class="input__form" maxlength="11">
+            <img src="../assets/icons/call.svg" alt="" class="icon__form">
+
+        </form>
+
+        <form action="">
+            <input type="submit" value="Enviar" class="submit">
+        </form>
+    </article>
+
+    <footer class="footer__container">
+        <img src="../assets/img/logo.png" alt="" class="img__logo--3">
+
+
+        <div class="contact__container">
+            <h3 class="footer__h3 footer__about--us ">SOBRE NOSOTROS</h3>
+            <p class="footer__p">
+                <a href="">Electromechanics </a>
+                <br>
+                <a href="">Contacto</a>
+                <br>
+                <a href="">Trabajo con nosotros</a>
+                <br>
+                <a href="">Politica de privacidad</a>
+            </p>
+        </div>
+
+        <div class="contact__container">
+            <h3 class="footer__h3 footer__h3--active">CURSO SENCE</h3>
+            <p class="footer__p footer__p--active">
+                <a href="">Cursos SENCE</a>
+                <br>
+                <a href="">Cursos</a>
+                <br>
+                <a href="">Capacitaciones</a>
+            </p>
+
+        </div>
+
+        <div class="contact__container">
+            <h3 class="footer__h3 footer__h3--active">DIRECCIÓN</h3>
+            <p class="footer__p footer__p--active">
+                Pasaje República N°4
+                <br>
+                Santiago Centro, Metro Républica
+                Barrio universitario
+            </p>
+
+        </div>
+        <div class="contact__container">
+            <h3 class="footer__h3 footer__h3--active">CONTACTO</h3>
+            <p class="footer__p footer__p--contact">
+                <span class="green">TELÉFONOS:</span> 226750000
+                <br>
+                <span class="green">WHASSAP:</span> +56958167137
+                <br>
+                <span class="green">SENCE:</span> 264691101
+                <br>
+                <br>
+                <span class="green">HORARIO DE ATENCIÓN:</span>
+                <br>
+                <span class="green">LUNES A VIENES:</span> 10 A 22 HRS.
+                <br>
+                <span class="green">SÁBADO:</span> 09 A 17:30 HRS.
+                <br>
+                <span class="green">CONTACTENOS A:</span> info@elc.cl
+            </p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="../script/main.js"></script>
+    <script src="../script/darkmode.js"></script>
+</body>
+
+</html>

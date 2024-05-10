@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="755" viewBox="0 0 1920 755">
+  <defs>
+    <clipPath id="clip-Grafico_Energia_Solar">
+      <rect width="1920" height="755"/>
+    </clipPath>
+  </defs>
+  <g id="Grafico_Energia_Solar" data-name="Grafico Energia Solar" clip-path="url(#clip-Grafico_Energia_Solar)">
+    <rect width="1920" height="755" fill="#fff"/>
+    <line id="Línea_126" data-name="Línea 126" x2="1625.286" transform="translate(159.732 192.395)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_151" data-name="Línea 151" y2="425" transform="translate(201 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_127" data-name="Línea 127" y2="425" transform="translate(270 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_128" data-name="Línea 128" y2="425" transform="translate(339 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_129" data-name="Línea 129" y2="425" transform="translate(408 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_130" data-name="Línea 130" y2="425" transform="translate(477 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_131" data-name="Línea 131" y2="425" transform="translate(546 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_132" data-name="Línea 132" y2="425" transform="translate(614 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_133" data-name="Línea 133" y2="425" transform="translate(683 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_134" data-name="Línea 134" y2="425" transform="translate(752 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_135" data-name="Línea 135" y2="425" transform="translate(821 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_136" data-name="Línea 136" y2="425" transform="translate(890 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_137" data-name="Línea 137" y2="425" transform="translate(959 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_138" data-name="Línea 138" y2="425" transform="translate(1027 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_139" data-name="Línea 139" y2="425" transform="translate(1096 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_140" data-name="Línea 140" y2="425" transform="translate(1165 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_141" data-name="Línea 141" y2="425" transform="translate(1234 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_142" data-name="Línea 142" y2="425" transform="translate(1303 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_143" data-name="Línea 143" y2="425" transform="translate(1372 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_144" data-name="Línea 144" y2="425" transform="translate(1441 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_145" data-name="Línea 145" y2="425" transform="translate(1509 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_146" data-name="Línea 146" y2="425" transform="translate(1578 193.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_147" data-name="Línea 147" x2="1626" transform="translate(160 298.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_148" data-name="Línea 148" x2="1625.286" transform="translate(159.732 404.871)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_149" data-name="Línea 149" x2="1626" transform="translate(160 511.221)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Línea_150" data-name="Línea 150" x2="1625.286" transform="translate(159.732 617.35)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="_2004" data-name="2004" transform="translate(209 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2004</tspan></text>
+    <text id="_2005" data-name="2005" transform="translate(278 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2005</tspan></text>
+    <text id="_2006" data-name="2006" transform="translate(347 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2006</tspan></text>
+    <text id="_2007" data-name="2007" transform="translate(415 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2007</tspan></text>
+    <text id="_2008" data-name="2008" transform="translate(485 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2008</tspan></text>
+    <text id="_2009" data-name="2009" transform="translate(554 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2009</tspan></text>
+    <text id="_2010" data-name="2010" transform="translate(622 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2010</tspan></text>
+    <text id="_2011" data-name="2011" transform="translate(691 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2011</tspan></text>
+    <text id="_2012" data-name="2012" transform="translate(760 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2012</tspan></text>
+    <text id="_2013" data-name="2013" transform="translate(829 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2013</tspan></text>
+    <text id="_2014" data-name="2014" transform="translate(898 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2014</tspan></text>
+    <text id="_2015" data-name="2015" transform="translate(967 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2015</tspan></text>
+    <text id="_2016" data-name="2016" transform="translate(1036 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2016</tspan></text>
+    <text id="_2017" data-name="2017" transform="translate(1104 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2017</tspan></text>
+    <text id="_2018" data-name="2018" transform="translate(1173 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2018</tspan></text>
+    <text id="_2019" data-name="2019" transform="translate(1239 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2019</tspan></text>
+    <text id="_2020" data-name="2020" transform="translate(1307 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2020</tspan></text>
+    <text id="_2021" data-name="2021" transform="translate(1380 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2021</tspan></text>
+    <text id="_2022" data-name="2022" transform="translate(1447 676.221) rotate(-90)" fill="#dc1c17" font-size="20" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">2022</tspan></text>
+    <text id="Promedio_Anual_2023-2025" data-name="Promedio
+Anual
+2023-2025" transform="translate(1534 647.221)" fill="#dc1c17" font-size="20" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-43.88" y="0">Promedio</tspan><tspan x="-26.415" y="24">Anual</tspan><tspan x="-49.99" y="48">2023-2025</tspan></text>
+    <text id="Promedio_Anual_2026-2023" data-name="Promedio
+Anual
+2026-2023" transform="translate(1677 647.221)" fill="#dc1c17" font-size="20" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-43.88" y="0">Promedio</tspan><tspan x="-26.415" y="24">Anual</tspan><tspan x="-49.99" y="48">2026-2023</tspan></text>
+    <rect id="Rectángulo_391" data-name="Rectángulo 391" width="37" height="14" transform="translate(182 603.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_369" data-name="Rectángulo 369" width="37" height="27" transform="translate(252 590.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_370" data-name="Rectángulo 370" width="37" height="35" transform="translate(321 582.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_371" data-name="Rectángulo 371" width="37" height="43" transform="translate(389 574.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_372" data-name="Rectángulo 372" width="37" height="54" transform="translate(459 563.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_373" data-name="Rectángulo 373" width="37" height="47" transform="translate(528 570.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_374" data-name="Rectángulo 374" width="36" height="62" transform="translate(597 555.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_375" data-name="Rectángulo 375" width="37" height="72" transform="translate(665 545.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_376" data-name="Rectángulo 376" width="37" height="63" transform="translate(734 554.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_377" data-name="Rectángulo 377" width="37" height="54" transform="translate(803 563.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_378" data-name="Rectángulo 378" width="37" height="82" transform="translate(872 535.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_379" data-name="Rectángulo 379" width="37" height="100" transform="translate(941 517.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_380" data-name="Rectángulo 380" width="36" height="106" transform="translate(1010 511.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_381" data-name="Rectángulo 381" width="37" height="116" transform="translate(1078 501.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_382" data-name="Rectángulo 382" width="37" height="122" transform="translate(1147 495.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_383" data-name="Rectángulo 383" width="37" height="135" transform="translate(1214 482.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_384" data-name="Rectángulo 384" width="36" height="157" transform="translate(1283 460.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_385" data-name="Rectángulo 385" width="36" height="259" transform="translate(1422 358.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_386" data-name="Rectángulo 386" width="36" height="352" transform="translate(1518 266.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_387" data-name="Rectángulo 387" width="37" height="432" transform="translate(1661 186.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_388" data-name="Rectángulo 388" width="37" height="212" transform="translate(1354 405.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_389" data-name="Rectángulo 389" width="152" height="85" transform="translate(1603 42.221)" fill="#dc1c17"/>
+    <rect id="Rectángulo_390" data-name="Rectángulo 390" width="152" height="86" transform="translate(1458 150.221)" fill="#dc1c17"/>
+    <path id="Polígono_6" data-name="Polígono 6" d="M8,0l8,15H0Z" transform="translate(1687 141.221) rotate(180)" fill="#dc1c17"/>
+    <path id="Polígono_7" data-name="Polígono 7" d="M8.5,0,17,15H0Z" transform="translate(1543 249.221) rotate(180)" fill="#dc1c17"/>
+    <text id="_4.804" data-name="4.804" transform="translate(1630 88.221)" fill="#fff" font-size="39" font-family="Lato-Regular, Lato"><tspan x="0" y="0">4.804</tspan></text>
+    <text id="_1.750" data-name="1.750" transform="translate(1486 196.221)" fill="#fff" font-size="39" font-family="Lato-Regular, Lato"><tspan x="0" y="0">1.750</tspan></text>
+    <text id="Millones_de_USD" data-name="Millones de USD" transform="translate(1622 113.221)" fill="#fff" font-size="15" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Millones de USD</tspan></text>
+    <text id="Millones_de_USD-2" data-name="Millones de USD" transform="translate(1477 221.221)" fill="#fff" font-size="15" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Millones de USD</tspan></text>
+    <rect id="Rectángulo_392" data-name="Rectángulo 392" width="36" height="24" rx="10" transform="translate(134 605.371)" fill="#dc1c17"/>
+    <rect id="Rectángulo_393" data-name="Rectángulo 393" width="36" height="24" rx="10" transform="translate(134 498.371)" fill="#dc1c17"/>
+    <rect id="Rectángulo_394" data-name="Rectángulo 394" width="36" height="24" rx="10" transform="translate(134 392.371)" fill="#dc1c17"/>
+    <rect id="Rectángulo_395" data-name="Rectángulo 395" width="36" height="23" rx="10" transform="translate(134 286.371)" fill="#dc1c17"/>
+    <rect id="Rectángulo_396" data-name="Rectángulo 396" width="36" height="24" rx="10" transform="translate(134 180.371)" fill="#dc1c17"/>
+    <text id="_0" data-name="0" transform="translate(146 625.371)" fill="#fff" font-size="21" font-family="Lato-Regular, Lato"><tspan x="0" y="0">0</tspan></text>
+    <text id="_250" data-name="250" transform="translate(142 515.371)" fill="#fff" font-size="12" font-family="Lato-Regular, Lato"><tspan x="0" y="0">250</tspan></text>
+    <text id="_500" data-name="500" transform="translate(142 409.371)" fill="#fff" font-size="12" font-family="Lato-Regular, Lato"><tspan x="0" y="0">500</tspan></text>
+    <text id="_750" data-name="750" transform="translate(142 302.371)" fill="#fff" font-size="12" font-family="Lato-Regular, Lato"><tspan x="0" y="0">750</tspan></text>
+    <text id="_1000" data-name="1000" transform="translate(138 196.371)" fill="#fff" font-size="11" font-family="Lato-Regular, Lato"><tspan x="0" y="0">1000</tspan></text>
+  </g>
+</svg>
