@@ -33,3 +33,4 @@ slide4.addEventListener('click', function() {
 });
 
 slide1.style.backgroundColor='red';
+
