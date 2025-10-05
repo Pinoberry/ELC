@@ -1,7 +1,7 @@
 # ELC - Sitio Web Institucional
 
 ## Descripción
-Sitio web institucional para ELC (English Language Center), centro de enseñanza de inglés. El proyecto incluye páginas principales como la página de inicio, admisión, cursos y formularios, con un diseño moderno y responsivo.
+Sitio web institucional para ELC, centro de enseñanza profesional. El proyecto incluye páginas principales como la página de inicio, admisión, cursos y formularios, con un diseño moderno y responsivo.
 
 ## Estructura del Proyecto
 
